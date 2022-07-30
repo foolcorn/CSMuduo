@@ -23,7 +23,7 @@ namespace muduo
 namespace detail
 {
 
-pid_t gettid()
+pid_t gettid()//-利用syscall获取真实tid
 {
   return static_cast<pid_t>(::syscall(SYS_gettid));
 }
@@ -36,6 +36,7 @@ void afterFork()
   // no need to call pthread_atfork(NULL, NULL, &afterFork);
 }
 
+//-为啥要定义成类呢
 class ThreadNameInitializer
 {
  public:
@@ -51,6 +52,7 @@ ThreadNameInitializer init;
 
 struct ThreadData
 {
+    //-函数指针，名称，tid，
   typedef muduo::Thread::ThreadFunc ThreadFunc;
   ThreadFunc func_;
   string name_;
@@ -69,7 +71,7 @@ struct ThreadData
 
   void runInThread()
   {
-    *tid_ = muduo::CurrentThread::tid();
+    *tid_ = muduo::CurrentThread::tid();//-获取当前线程id
     tid_ = NULL;
     latch_->countDown();
     latch_ = NULL;
@@ -105,6 +107,7 @@ struct ThreadData
   }
 };
 
+//-外部函数 给pthread执行的方法
 void* startThread(void* obj)
 {
   ThreadData* data = static_cast<ThreadData*>(obj);
@@ -175,6 +178,7 @@ void Thread::start()
   assert(!started_);
   started_ = true;
   // FIXME: move(func_)
+  //-构建线程data
   detail::ThreadData* data = new detail::ThreadData(func_, name_, &tid_, &latch_);
   if (pthread_create(&pthreadId_, NULL, &detail::startThread, data))
   {

@@ -10,7 +10,7 @@ set(base_SRCS
   Logging.cc
   LogStream.cc
   ProcessInfo.cc
-  Timestamp.cc
+  Timestamp.cc Timestamp.h
   Thread.cc
   ThreadPool.cc
   TimeZone.cc

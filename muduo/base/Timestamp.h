@@ -42,6 +42,7 @@ class Timestamp : public muduo::copyable,
   {
   }
 
+  //-交换
   void swap(Timestamp& that)
   {
     std::swap(microSecondsSinceEpoch_, that.microSecondsSinceEpoch_);

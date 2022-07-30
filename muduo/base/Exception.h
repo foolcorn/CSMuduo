@@ -12,6 +12,7 @@
 namespace muduo
 {
 
+    //-继承标准库的exception
 class Exception : public std::exception
 {
  public:
@@ -20,12 +21,12 @@ class Exception : public std::exception
 
   // default copy-ctor and operator= are okay.
 
-  const char* what() const noexcept override
+  const char* what() const noexcept override //-重写what接口返回错误信息
   {
     return message_.c_str();
   }
 
-  const char* stackTrace() const noexcept
+  const char* stackTrace() const noexcept  //-重写stackTrace返回栈信息
   {
     return stack_.c_str();
   }

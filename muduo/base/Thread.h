@@ -17,6 +17,7 @@
 namespace muduo
 {
 
+    //-封装了一个线程类
 class Thread : noncopyable
 {
  public:
@@ -47,7 +48,7 @@ class Thread : noncopyable
   string     name_;
   CountDownLatch latch_;
 
-  static AtomicInt32 numCreated_;
+  static AtomicInt32 numCreated_;//-设置成原子类型还是蛮合理的，所有线程类共享
 };
 
 }  // namespace muduo

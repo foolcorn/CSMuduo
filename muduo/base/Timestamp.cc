@@ -9,7 +9,7 @@
 #include <stdio.h>
 
 #ifndef __STDC_FORMAT_MACROS
-#define __STDC_FORMAT_MACROS
+#define __STDC_FORMAT_MACROS//-给prid64用的，只有define了才会兼容
 #endif
 
 #include <inttypes.h>
@@ -19,21 +19,26 @@ using namespace muduo;
 static_assert(sizeof(Timestamp) == sizeof(int64_t),
               "Timestamp should be same size as int64_t");
 
+//-纯输出秒数
 string Timestamp::toString() const
 {
   char buf[32] = {0};
+  //-多少秒
   int64_t seconds = microSecondsSinceEpoch_ / kMicroSecondsPerSecond;
+  //-多少微秒
   int64_t microseconds = microSecondsSinceEpoch_ % kMicroSecondsPerSecond;
+  //-PRID64是为了兼容32位机和64位机的打印，int64在64上ld 在32上是lld
   snprintf(buf, sizeof(buf), "%" PRId64 ".%06" PRId64 "", seconds, microseconds);
   return buf;
 }
 
+//-输出格式化的时间，应该是给log用的
 string Timestamp::toFormattedString(bool showMicroseconds) const
 {
   char buf[64] = {0};
   time_t seconds = static_cast<time_t>(microSecondsSinceEpoch_ / kMicroSecondsPerSecond);
   struct tm tm_time;
-  gmtime_r(&seconds, &tm_time);
+  gmtime_r(&seconds, &tm_time);//-线程安全地转换成time结构体
 
   if (showMicroseconds)
   {
@@ -52,6 +57,7 @@ string Timestamp::toFormattedString(bool showMicroseconds) const
   return buf;
 }
 
+//-获取当前时间
 Timestamp Timestamp::now()
 {
   struct timeval tv;
