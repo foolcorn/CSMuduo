@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/tmp.wP7cYFAtQi/muduo/net/inspect
+# Install script for directory: /tmp/tmp.BowNfo68sl/muduo/net/inspect
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,10 +38,10 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/tmp/tmp.wP7cYFAtQi/cmake-build-debug/lib/libmuduo_inspect.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/tmp/tmp.BowNfo68sl/cmake-build-debug/lib/libmuduo_inspect.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/muduo/net/inspect" TYPE FILE FILES "/tmp/tmp.wP7cYFAtQi/muduo/net/inspect/Inspector.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/muduo/net/inspect" TYPE FILE FILES "/tmp/tmp.BowNfo68sl/muduo/net/inspect/Inspector.h")
 endif()
 

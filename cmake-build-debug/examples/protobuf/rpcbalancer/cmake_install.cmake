@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/tmp.wP7cYFAtQi/examples/protobuf/rpcbalancer
+# Install script for directory: /tmp/tmp.BowNfo68sl/examples/protobuf/rpcbalancer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

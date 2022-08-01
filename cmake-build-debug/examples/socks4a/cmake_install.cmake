@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/tmp.wP7cYFAtQi/examples/socks4a
+# Install script for directory: /tmp/tmp.BowNfo68sl/examples/socks4a
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

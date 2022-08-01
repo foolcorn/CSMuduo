@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/tmp.wP7cYFAtQi/examples/netty/discard
+# Install script for directory: /tmp/tmp.BowNfo68sl/examples/netty/discard
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

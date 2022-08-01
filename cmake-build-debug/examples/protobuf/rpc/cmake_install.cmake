@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/tmp.wP7cYFAtQi/examples/protobuf/rpc
+# Install script for directory: /tmp/tmp.BowNfo68sl/examples/protobuf/rpc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

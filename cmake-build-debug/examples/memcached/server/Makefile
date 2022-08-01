@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/tmp.wP7cYFAtQi
+CMAKE_SOURCE_DIR = /tmp/tmp.BowNfo68sl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/tmp.wP7cYFAtQi/cmake-build-debug
+CMAKE_BINARY_DIR = /tmp/tmp.BowNfo68sl/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.wP7cYFAtQi/cmake-build-debug/CMakeFiles /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/memcached/server/CMakeFiles/progress.marks
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/memcached/server/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.wP7cYFAtQi/cmake-build-debug/CMakeFiles 0
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.BowNfo68sl/cmake-build-debug/CMakeFiles /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/memcached/server/CMakeFiles/progress.marks
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/memcached/server/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.BowNfo68sl/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/memcached/server/clean
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/memcached/server/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/memcached/server/preinstall
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/memcached/server/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/memcached/server/preinstall
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/memcached/server/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 examples/memcached/server/CMakeFiles/memcached_footprint.dir/rule:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/memcached/server/CMakeFiles/memcached_footprint.dir/rule
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/memcached/server/CMakeFiles/memcached_footprint.dir/rule
 .PHONY : examples/memcached/server/CMakeFiles/memcached_footprint.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ memcached_footprint: examples/memcached/server/CMakeFiles/memcached_footprint.di
 
 # fast build rule for target.
 memcached_footprint/fast:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_footprint.dir/build.make examples/memcached/server/CMakeFiles/memcached_footprint.dir/build
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_footprint.dir/build.make examples/memcached/server/CMakeFiles/memcached_footprint.dir/build
 .PHONY : memcached_footprint/fast
 
 # Convenience name for target.
 examples/memcached/server/CMakeFiles/memcached_debug.dir/rule:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/memcached/server/CMakeFiles/memcached_debug.dir/rule
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 examples/memcached/server/CMakeFiles/memcached_debug.dir/rule
 .PHONY : examples/memcached/server/CMakeFiles/memcached_debug.dir/rule
 
 # Convenience name for target.
@@ -194,7 +194,7 @@ memcached_debug: examples/memcached/server/CMakeFiles/memcached_debug.dir/rule
 
 # fast build rule for target.
 memcached_debug/fast:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_debug.dir/build.make examples/memcached/server/CMakeFiles/memcached_debug.dir/build
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_debug.dir/build.make examples/memcached/server/CMakeFiles/memcached_debug.dir/build
 .PHONY : memcached_debug/fast
 
 Item.o: Item.cc.o
@@ -203,8 +203,8 @@ Item.o: Item.cc.o
 
 # target to build an object file
 Item.cc.o:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_footprint.dir/build.make examples/memcached/server/CMakeFiles/memcached_footprint.dir/Item.cc.o
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_debug.dir/build.make examples/memcached/server/CMakeFiles/memcached_debug.dir/Item.cc.o
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_footprint.dir/build.make examples/memcached/server/CMakeFiles/memcached_footprint.dir/Item.cc.o
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_debug.dir/build.make examples/memcached/server/CMakeFiles/memcached_debug.dir/Item.cc.o
 .PHONY : Item.cc.o
 
 Item.i: Item.cc.i
@@ -213,8 +213,8 @@ Item.i: Item.cc.i
 
 # target to preprocess a source file
 Item.cc.i:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_footprint.dir/build.make examples/memcached/server/CMakeFiles/memcached_footprint.dir/Item.cc.i
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_debug.dir/build.make examples/memcached/server/CMakeFiles/memcached_debug.dir/Item.cc.i
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_footprint.dir/build.make examples/memcached/server/CMakeFiles/memcached_footprint.dir/Item.cc.i
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_debug.dir/build.make examples/memcached/server/CMakeFiles/memcached_debug.dir/Item.cc.i
 .PHONY : Item.cc.i
 
 Item.s: Item.cc.s
@@ -223,8 +223,8 @@ Item.s: Item.cc.s
 
 # target to generate assembly for a file
 Item.cc.s:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_footprint.dir/build.make examples/memcached/server/CMakeFiles/memcached_footprint.dir/Item.cc.s
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_debug.dir/build.make examples/memcached/server/CMakeFiles/memcached_debug.dir/Item.cc.s
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_footprint.dir/build.make examples/memcached/server/CMakeFiles/memcached_footprint.dir/Item.cc.s
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_debug.dir/build.make examples/memcached/server/CMakeFiles/memcached_debug.dir/Item.cc.s
 .PHONY : Item.cc.s
 
 MemcacheServer.o: MemcacheServer.cc.o
@@ -233,8 +233,8 @@ MemcacheServer.o: MemcacheServer.cc.o
 
 # target to build an object file
 MemcacheServer.cc.o:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_footprint.dir/build.make examples/memcached/server/CMakeFiles/memcached_footprint.dir/MemcacheServer.cc.o
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_debug.dir/build.make examples/memcached/server/CMakeFiles/memcached_debug.dir/MemcacheServer.cc.o
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_footprint.dir/build.make examples/memcached/server/CMakeFiles/memcached_footprint.dir/MemcacheServer.cc.o
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_debug.dir/build.make examples/memcached/server/CMakeFiles/memcached_debug.dir/MemcacheServer.cc.o
 .PHONY : MemcacheServer.cc.o
 
 MemcacheServer.i: MemcacheServer.cc.i
@@ -243,8 +243,8 @@ MemcacheServer.i: MemcacheServer.cc.i
 
 # target to preprocess a source file
 MemcacheServer.cc.i:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_footprint.dir/build.make examples/memcached/server/CMakeFiles/memcached_footprint.dir/MemcacheServer.cc.i
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_debug.dir/build.make examples/memcached/server/CMakeFiles/memcached_debug.dir/MemcacheServer.cc.i
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_footprint.dir/build.make examples/memcached/server/CMakeFiles/memcached_footprint.dir/MemcacheServer.cc.i
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_debug.dir/build.make examples/memcached/server/CMakeFiles/memcached_debug.dir/MemcacheServer.cc.i
 .PHONY : MemcacheServer.cc.i
 
 MemcacheServer.s: MemcacheServer.cc.s
@@ -253,8 +253,8 @@ MemcacheServer.s: MemcacheServer.cc.s
 
 # target to generate assembly for a file
 MemcacheServer.cc.s:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_footprint.dir/build.make examples/memcached/server/CMakeFiles/memcached_footprint.dir/MemcacheServer.cc.s
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_debug.dir/build.make examples/memcached/server/CMakeFiles/memcached_debug.dir/MemcacheServer.cc.s
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_footprint.dir/build.make examples/memcached/server/CMakeFiles/memcached_footprint.dir/MemcacheServer.cc.s
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_debug.dir/build.make examples/memcached/server/CMakeFiles/memcached_debug.dir/MemcacheServer.cc.s
 .PHONY : MemcacheServer.cc.s
 
 Session.o: Session.cc.o
@@ -263,8 +263,8 @@ Session.o: Session.cc.o
 
 # target to build an object file
 Session.cc.o:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_footprint.dir/build.make examples/memcached/server/CMakeFiles/memcached_footprint.dir/Session.cc.o
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_debug.dir/build.make examples/memcached/server/CMakeFiles/memcached_debug.dir/Session.cc.o
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_footprint.dir/build.make examples/memcached/server/CMakeFiles/memcached_footprint.dir/Session.cc.o
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_debug.dir/build.make examples/memcached/server/CMakeFiles/memcached_debug.dir/Session.cc.o
 .PHONY : Session.cc.o
 
 Session.i: Session.cc.i
@@ -273,8 +273,8 @@ Session.i: Session.cc.i
 
 # target to preprocess a source file
 Session.cc.i:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_footprint.dir/build.make examples/memcached/server/CMakeFiles/memcached_footprint.dir/Session.cc.i
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_debug.dir/build.make examples/memcached/server/CMakeFiles/memcached_debug.dir/Session.cc.i
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_footprint.dir/build.make examples/memcached/server/CMakeFiles/memcached_footprint.dir/Session.cc.i
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_debug.dir/build.make examples/memcached/server/CMakeFiles/memcached_debug.dir/Session.cc.i
 .PHONY : Session.cc.i
 
 Session.s: Session.cc.s
@@ -283,8 +283,8 @@ Session.s: Session.cc.s
 
 # target to generate assembly for a file
 Session.cc.s:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_footprint.dir/build.make examples/memcached/server/CMakeFiles/memcached_footprint.dir/Session.cc.s
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_debug.dir/build.make examples/memcached/server/CMakeFiles/memcached_debug.dir/Session.cc.s
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_footprint.dir/build.make examples/memcached/server/CMakeFiles/memcached_footprint.dir/Session.cc.s
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_debug.dir/build.make examples/memcached/server/CMakeFiles/memcached_debug.dir/Session.cc.s
 .PHONY : Session.cc.s
 
 footprint_test.o: footprint_test.cc.o
@@ -293,7 +293,7 @@ footprint_test.o: footprint_test.cc.o
 
 # target to build an object file
 footprint_test.cc.o:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_footprint.dir/build.make examples/memcached/server/CMakeFiles/memcached_footprint.dir/footprint_test.cc.o
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_footprint.dir/build.make examples/memcached/server/CMakeFiles/memcached_footprint.dir/footprint_test.cc.o
 .PHONY : footprint_test.cc.o
 
 footprint_test.i: footprint_test.cc.i
@@ -302,7 +302,7 @@ footprint_test.i: footprint_test.cc.i
 
 # target to preprocess a source file
 footprint_test.cc.i:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_footprint.dir/build.make examples/memcached/server/CMakeFiles/memcached_footprint.dir/footprint_test.cc.i
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_footprint.dir/build.make examples/memcached/server/CMakeFiles/memcached_footprint.dir/footprint_test.cc.i
 .PHONY : footprint_test.cc.i
 
 footprint_test.s: footprint_test.cc.s
@@ -311,7 +311,7 @@ footprint_test.s: footprint_test.cc.s
 
 # target to generate assembly for a file
 footprint_test.cc.s:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_footprint.dir/build.make examples/memcached/server/CMakeFiles/memcached_footprint.dir/footprint_test.cc.s
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_footprint.dir/build.make examples/memcached/server/CMakeFiles/memcached_footprint.dir/footprint_test.cc.s
 .PHONY : footprint_test.cc.s
 
 server.o: server.cc.o
@@ -320,7 +320,7 @@ server.o: server.cc.o
 
 # target to build an object file
 server.cc.o:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_debug.dir/build.make examples/memcached/server/CMakeFiles/memcached_debug.dir/server.cc.o
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_debug.dir/build.make examples/memcached/server/CMakeFiles/memcached_debug.dir/server.cc.o
 .PHONY : server.cc.o
 
 server.i: server.cc.i
@@ -329,7 +329,7 @@ server.i: server.cc.i
 
 # target to preprocess a source file
 server.cc.i:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_debug.dir/build.make examples/memcached/server/CMakeFiles/memcached_debug.dir/server.cc.i
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_debug.dir/build.make examples/memcached/server/CMakeFiles/memcached_debug.dir/server.cc.i
 .PHONY : server.cc.i
 
 server.s: server.cc.s
@@ -338,7 +338,7 @@ server.s: server.cc.s
 
 # target to generate assembly for a file
 server.cc.s:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_debug.dir/build.make examples/memcached/server/CMakeFiles/memcached_debug.dir/server.cc.s
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(MAKE) -f examples/memcached/server/CMakeFiles/memcached_debug.dir/build.make examples/memcached/server/CMakeFiles/memcached_debug.dir/server.cc.s
 .PHONY : server.cc.s
 
 # Help Target
@@ -382,6 +382,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

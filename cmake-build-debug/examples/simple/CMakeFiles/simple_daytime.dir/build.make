@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/tmp.wP7cYFAtQi
+CMAKE_SOURCE_DIR = /tmp/tmp.BowNfo68sl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/tmp.wP7cYFAtQi/cmake-build-debug
+CMAKE_BINARY_DIR = /tmp/tmp.BowNfo68sl/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include examples/simple/CMakeFiles/simple_daytime.dir/depend.make
@@ -59,29 +59,29 @@ include examples/simple/CMakeFiles/simple_daytime.dir/flags.make
 
 examples/simple/CMakeFiles/simple_daytime.dir/daytime/daytime.cc.o: examples/simple/CMakeFiles/simple_daytime.dir/flags.make
 examples/simple/CMakeFiles/simple_daytime.dir/daytime/daytime.cc.o: ../examples/simple/daytime/daytime.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.wP7cYFAtQi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/simple/CMakeFiles/simple_daytime.dir/daytime/daytime.cc.o"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/simple && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_daytime.dir/daytime/daytime.cc.o -c /tmp/tmp.wP7cYFAtQi/examples/simple/daytime/daytime.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.BowNfo68sl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/simple/CMakeFiles/simple_daytime.dir/daytime/daytime.cc.o"
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/simple && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_daytime.dir/daytime/daytime.cc.o -c /tmp/tmp.BowNfo68sl/examples/simple/daytime/daytime.cc
 
 examples/simple/CMakeFiles/simple_daytime.dir/daytime/daytime.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simple_daytime.dir/daytime/daytime.cc.i"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/simple && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.wP7cYFAtQi/examples/simple/daytime/daytime.cc > CMakeFiles/simple_daytime.dir/daytime/daytime.cc.i
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/simple && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.BowNfo68sl/examples/simple/daytime/daytime.cc > CMakeFiles/simple_daytime.dir/daytime/daytime.cc.i
 
 examples/simple/CMakeFiles/simple_daytime.dir/daytime/daytime.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simple_daytime.dir/daytime/daytime.cc.s"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/simple && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.wP7cYFAtQi/examples/simple/daytime/daytime.cc -o CMakeFiles/simple_daytime.dir/daytime/daytime.cc.s
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/simple && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.BowNfo68sl/examples/simple/daytime/daytime.cc -o CMakeFiles/simple_daytime.dir/daytime/daytime.cc.s
 
 examples/simple/CMakeFiles/simple_daytime.dir/daytime/main.cc.o: examples/simple/CMakeFiles/simple_daytime.dir/flags.make
 examples/simple/CMakeFiles/simple_daytime.dir/daytime/main.cc.o: ../examples/simple/daytime/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.wP7cYFAtQi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/simple/CMakeFiles/simple_daytime.dir/daytime/main.cc.o"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/simple && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_daytime.dir/daytime/main.cc.o -c /tmp/tmp.wP7cYFAtQi/examples/simple/daytime/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.BowNfo68sl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/simple/CMakeFiles/simple_daytime.dir/daytime/main.cc.o"
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/simple && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_daytime.dir/daytime/main.cc.o -c /tmp/tmp.BowNfo68sl/examples/simple/daytime/main.cc
 
 examples/simple/CMakeFiles/simple_daytime.dir/daytime/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simple_daytime.dir/daytime/main.cc.i"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/simple && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.wP7cYFAtQi/examples/simple/daytime/main.cc > CMakeFiles/simple_daytime.dir/daytime/main.cc.i
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/simple && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.BowNfo68sl/examples/simple/daytime/main.cc > CMakeFiles/simple_daytime.dir/daytime/main.cc.i
 
 examples/simple/CMakeFiles/simple_daytime.dir/daytime/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simple_daytime.dir/daytime/main.cc.s"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/simple && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.wP7cYFAtQi/examples/simple/daytime/main.cc -o CMakeFiles/simple_daytime.dir/daytime/main.cc.s
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/simple && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.BowNfo68sl/examples/simple/daytime/main.cc -o CMakeFiles/simple_daytime.dir/daytime/main.cc.s
 
 # Object files for target simple_daytime
 simple_daytime_OBJECTS = \
@@ -97,8 +97,8 @@ bin/simple_daytime: examples/simple/CMakeFiles/simple_daytime.dir/build.make
 bin/simple_daytime: lib/libmuduo_net.a
 bin/simple_daytime: lib/libmuduo_base.a
 bin/simple_daytime: examples/simple/CMakeFiles/simple_daytime.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.wP7cYFAtQi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../bin/simple_daytime"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/simple && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simple_daytime.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.BowNfo68sl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../bin/simple_daytime"
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/simple && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simple_daytime.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/simple/CMakeFiles/simple_daytime.dir/build: bin/simple_daytime
@@ -106,10 +106,10 @@ examples/simple/CMakeFiles/simple_daytime.dir/build: bin/simple_daytime
 .PHONY : examples/simple/CMakeFiles/simple_daytime.dir/build
 
 examples/simple/CMakeFiles/simple_daytime.dir/clean:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/simple && $(CMAKE_COMMAND) -P CMakeFiles/simple_daytime.dir/cmake_clean.cmake
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/simple && $(CMAKE_COMMAND) -P CMakeFiles/simple_daytime.dir/cmake_clean.cmake
 .PHONY : examples/simple/CMakeFiles/simple_daytime.dir/clean
 
 examples/simple/CMakeFiles/simple_daytime.dir/depend:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/tmp.wP7cYFAtQi /tmp/tmp.wP7cYFAtQi/examples/simple /tmp/tmp.wP7cYFAtQi/cmake-build-debug /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/simple /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/simple/CMakeFiles/simple_daytime.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/tmp.BowNfo68sl /tmp/tmp.BowNfo68sl/examples/simple /tmp/tmp.BowNfo68sl/cmake-build-debug /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/simple /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/simple/CMakeFiles/simple_daytime.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/simple/CMakeFiles/simple_daytime.dir/depend
 

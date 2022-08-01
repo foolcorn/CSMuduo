@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/tmp.wP7cYFAtQi/examples/protobuf
+# Install script for directory: /tmp/tmp.BowNfo68sl/examples/protobuf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/protobuf/codec/cmake_install.cmake")
-  include("/tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/protobuf/rpc/cmake_install.cmake")
-  include("/tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/protobuf/rpcbalancer/cmake_install.cmake")
-  include("/tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/protobuf/rpcbench/cmake_install.cmake")
+  include("/tmp/tmp.BowNfo68sl/cmake-build-debug/examples/protobuf/codec/cmake_install.cmake")
+  include("/tmp/tmp.BowNfo68sl/cmake-build-debug/examples/protobuf/rpc/cmake_install.cmake")
+  include("/tmp/tmp.BowNfo68sl/cmake-build-debug/examples/protobuf/rpcbalancer/cmake_install.cmake")
+  include("/tmp/tmp.BowNfo68sl/cmake-build-debug/examples/protobuf/rpcbench/cmake_install.cmake")
 
 endif()
 

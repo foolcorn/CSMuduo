@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/tmp.wP7cYFAtQi
+# Install script for directory: /tmp/tmp.BowNfo68sl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/tmp/tmp.wP7cYFAtQi/cmake-build-debug/muduo/base/cmake_install.cmake")
-  include("/tmp/tmp.wP7cYFAtQi/cmake-build-debug/muduo/net/cmake_install.cmake")
-  include("/tmp/tmp.wP7cYFAtQi/cmake-build-debug/contrib/cmake_install.cmake")
-  include("/tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/cmake_install.cmake")
+  include("/tmp/tmp.BowNfo68sl/cmake-build-debug/muduo/base/cmake_install.cmake")
+  include("/tmp/tmp.BowNfo68sl/cmake-build-debug/muduo/net/cmake_install.cmake")
+  include("/tmp/tmp.BowNfo68sl/cmake-build-debug/contrib/cmake_install.cmake")
+  include("/tmp/tmp.BowNfo68sl/cmake-build-debug/examples/cmake_install.cmake")
 
 endif()
 
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/tmp/tmp.wP7cYFAtQi/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/tmp/tmp.BowNfo68sl/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

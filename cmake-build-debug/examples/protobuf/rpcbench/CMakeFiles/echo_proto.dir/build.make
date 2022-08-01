@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/tmp.wP7cYFAtQi
+CMAKE_SOURCE_DIR = /tmp/tmp.BowNfo68sl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/tmp.wP7cYFAtQi/cmake-build-debug
+CMAKE_BINARY_DIR = /tmp/tmp.BowNfo68sl/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include examples/protobuf/rpcbench/CMakeFiles/echo_proto.dir/depend.make
@@ -58,24 +58,24 @@ include examples/protobuf/rpcbench/CMakeFiles/echo_proto.dir/progress.make
 include examples/protobuf/rpcbench/CMakeFiles/echo_proto.dir/flags.make
 
 examples/protobuf/rpcbench/echo.pb.cc: ../examples/protobuf/rpcbench/echo.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/tmp/tmp.wP7cYFAtQi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating echo.pb.cc, echo.pb.h"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/protobuf/rpcbench && protoc --cpp_out . /tmp/tmp.wP7cYFAtQi/examples/protobuf/rpcbench/echo.proto -I/tmp/tmp.wP7cYFAtQi/examples/protobuf/rpcbench
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/tmp/tmp.BowNfo68sl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating echo.pb.cc, echo.pb.h"
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/protobuf/rpcbench && protoc --cpp_out . /tmp/tmp.BowNfo68sl/examples/protobuf/rpcbench/echo.proto -I/tmp/tmp.BowNfo68sl/examples/protobuf/rpcbench
 
 examples/protobuf/rpcbench/echo.pb.h: examples/protobuf/rpcbench/echo.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate examples/protobuf/rpcbench/echo.pb.h
 
 examples/protobuf/rpcbench/CMakeFiles/echo_proto.dir/echo.pb.cc.o: examples/protobuf/rpcbench/CMakeFiles/echo_proto.dir/flags.make
 examples/protobuf/rpcbench/CMakeFiles/echo_proto.dir/echo.pb.cc.o: examples/protobuf/rpcbench/echo.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.wP7cYFAtQi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/protobuf/rpcbench/CMakeFiles/echo_proto.dir/echo.pb.cc.o"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/protobuf/rpcbench && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-conversion -Wno-shadow -o CMakeFiles/echo_proto.dir/echo.pb.cc.o -c /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/protobuf/rpcbench/echo.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.BowNfo68sl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/protobuf/rpcbench/CMakeFiles/echo_proto.dir/echo.pb.cc.o"
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/protobuf/rpcbench && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-conversion -Wno-shadow -o CMakeFiles/echo_proto.dir/echo.pb.cc.o -c /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/protobuf/rpcbench/echo.pb.cc
 
 examples/protobuf/rpcbench/CMakeFiles/echo_proto.dir/echo.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/echo_proto.dir/echo.pb.cc.i"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/protobuf/rpcbench && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-conversion -Wno-shadow -E /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/protobuf/rpcbench/echo.pb.cc > CMakeFiles/echo_proto.dir/echo.pb.cc.i
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/protobuf/rpcbench && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-conversion -Wno-shadow -E /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/protobuf/rpcbench/echo.pb.cc > CMakeFiles/echo_proto.dir/echo.pb.cc.i
 
 examples/protobuf/rpcbench/CMakeFiles/echo_proto.dir/echo.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/echo_proto.dir/echo.pb.cc.s"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/protobuf/rpcbench && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-conversion -Wno-shadow -S /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/protobuf/rpcbench/echo.pb.cc -o CMakeFiles/echo_proto.dir/echo.pb.cc.s
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/protobuf/rpcbench && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-conversion -Wno-shadow -S /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/protobuf/rpcbench/echo.pb.cc -o CMakeFiles/echo_proto.dir/echo.pb.cc.s
 
 # Object files for target echo_proto
 echo_proto_OBJECTS = \
@@ -87,9 +87,9 @@ echo_proto_EXTERNAL_OBJECTS =
 lib/libecho_proto.a: examples/protobuf/rpcbench/CMakeFiles/echo_proto.dir/echo.pb.cc.o
 lib/libecho_proto.a: examples/protobuf/rpcbench/CMakeFiles/echo_proto.dir/build.make
 lib/libecho_proto.a: examples/protobuf/rpcbench/CMakeFiles/echo_proto.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.wP7cYFAtQi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../../../lib/libecho_proto.a"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/protobuf/rpcbench && $(CMAKE_COMMAND) -P CMakeFiles/echo_proto.dir/cmake_clean_target.cmake
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/protobuf/rpcbench && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/echo_proto.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.BowNfo68sl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../../../lib/libecho_proto.a"
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/protobuf/rpcbench && $(CMAKE_COMMAND) -P CMakeFiles/echo_proto.dir/cmake_clean_target.cmake
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/protobuf/rpcbench && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/echo_proto.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/protobuf/rpcbench/CMakeFiles/echo_proto.dir/build: lib/libecho_proto.a
@@ -97,11 +97,11 @@ examples/protobuf/rpcbench/CMakeFiles/echo_proto.dir/build: lib/libecho_proto.a
 .PHONY : examples/protobuf/rpcbench/CMakeFiles/echo_proto.dir/build
 
 examples/protobuf/rpcbench/CMakeFiles/echo_proto.dir/clean:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/protobuf/rpcbench && $(CMAKE_COMMAND) -P CMakeFiles/echo_proto.dir/cmake_clean.cmake
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/protobuf/rpcbench && $(CMAKE_COMMAND) -P CMakeFiles/echo_proto.dir/cmake_clean.cmake
 .PHONY : examples/protobuf/rpcbench/CMakeFiles/echo_proto.dir/clean
 
 examples/protobuf/rpcbench/CMakeFiles/echo_proto.dir/depend: examples/protobuf/rpcbench/echo.pb.cc
 examples/protobuf/rpcbench/CMakeFiles/echo_proto.dir/depend: examples/protobuf/rpcbench/echo.pb.h
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/tmp.wP7cYFAtQi /tmp/tmp.wP7cYFAtQi/examples/protobuf/rpcbench /tmp/tmp.wP7cYFAtQi/cmake-build-debug /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/protobuf/rpcbench /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/protobuf/rpcbench/CMakeFiles/echo_proto.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/tmp.BowNfo68sl /tmp/tmp.BowNfo68sl/examples/protobuf/rpcbench /tmp/tmp.BowNfo68sl/cmake-build-debug /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/protobuf/rpcbench /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/protobuf/rpcbench/CMakeFiles/echo_proto.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/protobuf/rpcbench/CMakeFiles/echo_proto.dir/depend
 

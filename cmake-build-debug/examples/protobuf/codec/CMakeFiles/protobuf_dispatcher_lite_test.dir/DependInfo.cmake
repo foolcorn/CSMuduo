@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/tmp/tmp.wP7cYFAtQi/examples/protobuf/codec/dispatcher_lite_test.cc" "/tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/protobuf/codec/CMakeFiles/protobuf_dispatcher_lite_test.dir/dispatcher_lite_test.cc.o"
+  "/tmp/tmp.BowNfo68sl/examples/protobuf/codec/dispatcher_lite_test.cc" "/tmp/tmp.BowNfo68sl/cmake-build-debug/examples/protobuf/codec/CMakeFiles/protobuf_dispatcher_lite_test.dir/dispatcher_lite_test.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -16,7 +16,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/protobuf/codec/CMakeFiles/query_proto.dir/DependInfo.cmake"
+  "/tmp/tmp.BowNfo68sl/cmake-build-debug/examples/protobuf/codec/CMakeFiles/query_proto.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/tmp.wP7cYFAtQi/examples/protobuf/codec
+# Install script for directory: /tmp/tmp.BowNfo68sl/examples/protobuf/codec
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

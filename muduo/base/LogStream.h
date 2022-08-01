@@ -18,8 +18,8 @@ namespace muduo
 namespace detail
 {
 
-const int kSmallBuffer = 4000;
-const int kLargeBuffer = 4000*1000;
+const int kSmallBuffer = 4000;//-小缓存大小
+const int kLargeBuffer = 4000*1000;//-大缓存大小
 
 template<int SIZE>
 class FixedBuffer : noncopyable
@@ -36,9 +36,11 @@ class FixedBuffer : noncopyable
     setCookie(cookieEnd);
   }
 
+  //-向当前buffer流中追加buf，长度为len
   void append(const char* /*restrict*/ buf, size_t len)
   {
     // FIXME: append partially
+    //-如果可用容量足够
     if (implicit_cast<size_t>(avail()) > len)
     {
       memcpy(cur_, buf, len);
@@ -46,15 +48,21 @@ class FixedBuffer : noncopyable
     }
   }
 
+  //-返回整个缓存，cstr
   const char* data() const { return data_; }
+  //-当前buffer size
   int length() const { return static_cast<int>(cur_ - data_); }
 
-  // write to data_ directly
+  //-当前offset
   char* current() { return cur_; }
+  //-剩余容量
   int avail() const { return static_cast<int>(end() - cur_); }
+  //-向后移动偏移量
   void add(size_t len) { cur_ += len; }
 
+  //-重置偏移量
   void reset() { cur_ = data_; }
+  //-buffer全部置零
   void bzero() { memZero(data_, sizeof data_); }
 
   // for used by GDB

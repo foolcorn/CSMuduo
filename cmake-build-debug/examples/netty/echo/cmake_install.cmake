@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/tmp.wP7cYFAtQi/examples/netty/echo
+# Install script for directory: /tmp/tmp.BowNfo68sl/examples/netty/echo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

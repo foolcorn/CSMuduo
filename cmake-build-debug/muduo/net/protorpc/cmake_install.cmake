@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/tmp.wP7cYFAtQi/muduo/net/protorpc
+# Install script for directory: /tmp/tmp.BowNfo68sl/muduo/net/protorpc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,21 +38,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/tmp/tmp.wP7cYFAtQi/cmake-build-debug/lib/libmuduo_protorpc_wire.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/tmp/tmp.BowNfo68sl/cmake-build-debug/lib/libmuduo_protorpc_wire.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/tmp/tmp.wP7cYFAtQi/cmake-build-debug/lib/libmuduo_protorpc.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/tmp/tmp.BowNfo68sl/cmake-build-debug/lib/libmuduo_protorpc.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/muduo/net/protorpc" TYPE FILE FILES
-    "/tmp/tmp.wP7cYFAtQi/muduo/net/protorpc/RpcCodec.h"
-    "/tmp/tmp.wP7cYFAtQi/muduo/net/protorpc/RpcChannel.h"
-    "/tmp/tmp.wP7cYFAtQi/muduo/net/protorpc/RpcServer.h"
-    "/tmp/tmp.wP7cYFAtQi/muduo/net/protorpc/rpc.proto"
-    "/tmp/tmp.wP7cYFAtQi/muduo/net/protorpc/rpcservice.proto"
-    "/tmp/tmp.wP7cYFAtQi/cmake-build-debug/muduo/net/protorpc/rpc.pb.h"
+    "/tmp/tmp.BowNfo68sl/muduo/net/protorpc/RpcCodec.h"
+    "/tmp/tmp.BowNfo68sl/muduo/net/protorpc/RpcChannel.h"
+    "/tmp/tmp.BowNfo68sl/muduo/net/protorpc/RpcServer.h"
+    "/tmp/tmp.BowNfo68sl/muduo/net/protorpc/rpc.proto"
+    "/tmp/tmp.BowNfo68sl/muduo/net/protorpc/rpcservice.proto"
+    "/tmp/tmp.BowNfo68sl/cmake-build-debug/muduo/net/protorpc/rpc.pb.h"
     )
 endif()
 

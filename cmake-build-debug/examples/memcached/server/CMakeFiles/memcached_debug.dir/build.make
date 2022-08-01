@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/tmp.wP7cYFAtQi
+CMAKE_SOURCE_DIR = /tmp/tmp.BowNfo68sl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/tmp.wP7cYFAtQi/cmake-build-debug
+CMAKE_BINARY_DIR = /tmp/tmp.BowNfo68sl/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include examples/memcached/server/CMakeFiles/memcached_debug.dir/depend.make
@@ -59,55 +59,55 @@ include examples/memcached/server/CMakeFiles/memcached_debug.dir/flags.make
 
 examples/memcached/server/CMakeFiles/memcached_debug.dir/Item.cc.o: examples/memcached/server/CMakeFiles/memcached_debug.dir/flags.make
 examples/memcached/server/CMakeFiles/memcached_debug.dir/Item.cc.o: ../examples/memcached/server/Item.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.wP7cYFAtQi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/memcached/server/CMakeFiles/memcached_debug.dir/Item.cc.o"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/memcached/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/memcached_debug.dir/Item.cc.o -c /tmp/tmp.wP7cYFAtQi/examples/memcached/server/Item.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.BowNfo68sl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/memcached/server/CMakeFiles/memcached_debug.dir/Item.cc.o"
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/memcached/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/memcached_debug.dir/Item.cc.o -c /tmp/tmp.BowNfo68sl/examples/memcached/server/Item.cc
 
 examples/memcached/server/CMakeFiles/memcached_debug.dir/Item.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/memcached_debug.dir/Item.cc.i"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/memcached/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.wP7cYFAtQi/examples/memcached/server/Item.cc > CMakeFiles/memcached_debug.dir/Item.cc.i
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/memcached/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.BowNfo68sl/examples/memcached/server/Item.cc > CMakeFiles/memcached_debug.dir/Item.cc.i
 
 examples/memcached/server/CMakeFiles/memcached_debug.dir/Item.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/memcached_debug.dir/Item.cc.s"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/memcached/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.wP7cYFAtQi/examples/memcached/server/Item.cc -o CMakeFiles/memcached_debug.dir/Item.cc.s
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/memcached/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.BowNfo68sl/examples/memcached/server/Item.cc -o CMakeFiles/memcached_debug.dir/Item.cc.s
 
 examples/memcached/server/CMakeFiles/memcached_debug.dir/MemcacheServer.cc.o: examples/memcached/server/CMakeFiles/memcached_debug.dir/flags.make
 examples/memcached/server/CMakeFiles/memcached_debug.dir/MemcacheServer.cc.o: ../examples/memcached/server/MemcacheServer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.wP7cYFAtQi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/memcached/server/CMakeFiles/memcached_debug.dir/MemcacheServer.cc.o"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/memcached/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/memcached_debug.dir/MemcacheServer.cc.o -c /tmp/tmp.wP7cYFAtQi/examples/memcached/server/MemcacheServer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.BowNfo68sl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/memcached/server/CMakeFiles/memcached_debug.dir/MemcacheServer.cc.o"
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/memcached/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/memcached_debug.dir/MemcacheServer.cc.o -c /tmp/tmp.BowNfo68sl/examples/memcached/server/MemcacheServer.cc
 
 examples/memcached/server/CMakeFiles/memcached_debug.dir/MemcacheServer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/memcached_debug.dir/MemcacheServer.cc.i"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/memcached/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.wP7cYFAtQi/examples/memcached/server/MemcacheServer.cc > CMakeFiles/memcached_debug.dir/MemcacheServer.cc.i
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/memcached/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.BowNfo68sl/examples/memcached/server/MemcacheServer.cc > CMakeFiles/memcached_debug.dir/MemcacheServer.cc.i
 
 examples/memcached/server/CMakeFiles/memcached_debug.dir/MemcacheServer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/memcached_debug.dir/MemcacheServer.cc.s"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/memcached/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.wP7cYFAtQi/examples/memcached/server/MemcacheServer.cc -o CMakeFiles/memcached_debug.dir/MemcacheServer.cc.s
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/memcached/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.BowNfo68sl/examples/memcached/server/MemcacheServer.cc -o CMakeFiles/memcached_debug.dir/MemcacheServer.cc.s
 
 examples/memcached/server/CMakeFiles/memcached_debug.dir/Session.cc.o: examples/memcached/server/CMakeFiles/memcached_debug.dir/flags.make
 examples/memcached/server/CMakeFiles/memcached_debug.dir/Session.cc.o: ../examples/memcached/server/Session.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.wP7cYFAtQi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object examples/memcached/server/CMakeFiles/memcached_debug.dir/Session.cc.o"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/memcached/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/memcached_debug.dir/Session.cc.o -c /tmp/tmp.wP7cYFAtQi/examples/memcached/server/Session.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.BowNfo68sl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object examples/memcached/server/CMakeFiles/memcached_debug.dir/Session.cc.o"
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/memcached/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/memcached_debug.dir/Session.cc.o -c /tmp/tmp.BowNfo68sl/examples/memcached/server/Session.cc
 
 examples/memcached/server/CMakeFiles/memcached_debug.dir/Session.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/memcached_debug.dir/Session.cc.i"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/memcached/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.wP7cYFAtQi/examples/memcached/server/Session.cc > CMakeFiles/memcached_debug.dir/Session.cc.i
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/memcached/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.BowNfo68sl/examples/memcached/server/Session.cc > CMakeFiles/memcached_debug.dir/Session.cc.i
 
 examples/memcached/server/CMakeFiles/memcached_debug.dir/Session.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/memcached_debug.dir/Session.cc.s"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/memcached/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.wP7cYFAtQi/examples/memcached/server/Session.cc -o CMakeFiles/memcached_debug.dir/Session.cc.s
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/memcached/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.BowNfo68sl/examples/memcached/server/Session.cc -o CMakeFiles/memcached_debug.dir/Session.cc.s
 
 examples/memcached/server/CMakeFiles/memcached_debug.dir/server.cc.o: examples/memcached/server/CMakeFiles/memcached_debug.dir/flags.make
 examples/memcached/server/CMakeFiles/memcached_debug.dir/server.cc.o: ../examples/memcached/server/server.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.wP7cYFAtQi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object examples/memcached/server/CMakeFiles/memcached_debug.dir/server.cc.o"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/memcached/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/memcached_debug.dir/server.cc.o -c /tmp/tmp.wP7cYFAtQi/examples/memcached/server/server.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.BowNfo68sl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object examples/memcached/server/CMakeFiles/memcached_debug.dir/server.cc.o"
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/memcached/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/memcached_debug.dir/server.cc.o -c /tmp/tmp.BowNfo68sl/examples/memcached/server/server.cc
 
 examples/memcached/server/CMakeFiles/memcached_debug.dir/server.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/memcached_debug.dir/server.cc.i"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/memcached/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.wP7cYFAtQi/examples/memcached/server/server.cc > CMakeFiles/memcached_debug.dir/server.cc.i
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/memcached/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.BowNfo68sl/examples/memcached/server/server.cc > CMakeFiles/memcached_debug.dir/server.cc.i
 
 examples/memcached/server/CMakeFiles/memcached_debug.dir/server.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/memcached_debug.dir/server.cc.s"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/memcached/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.wP7cYFAtQi/examples/memcached/server/server.cc -o CMakeFiles/memcached_debug.dir/server.cc.s
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/memcached/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.BowNfo68sl/examples/memcached/server/server.cc -o CMakeFiles/memcached_debug.dir/server.cc.s
 
 # Object files for target memcached_debug
 memcached_debug_OBJECTS = \
@@ -130,8 +130,8 @@ bin/memcached_debug: lib/libmuduo_http.a
 bin/memcached_debug: lib/libmuduo_net.a
 bin/memcached_debug: lib/libmuduo_base.a
 bin/memcached_debug: examples/memcached/server/CMakeFiles/memcached_debug.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.wP7cYFAtQi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../../../bin/memcached_debug"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/memcached/server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/memcached_debug.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.BowNfo68sl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../../../bin/memcached_debug"
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/memcached/server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/memcached_debug.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/memcached/server/CMakeFiles/memcached_debug.dir/build: bin/memcached_debug
@@ -139,10 +139,10 @@ examples/memcached/server/CMakeFiles/memcached_debug.dir/build: bin/memcached_de
 .PHONY : examples/memcached/server/CMakeFiles/memcached_debug.dir/build
 
 examples/memcached/server/CMakeFiles/memcached_debug.dir/clean:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/memcached/server && $(CMAKE_COMMAND) -P CMakeFiles/memcached_debug.dir/cmake_clean.cmake
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/memcached/server && $(CMAKE_COMMAND) -P CMakeFiles/memcached_debug.dir/cmake_clean.cmake
 .PHONY : examples/memcached/server/CMakeFiles/memcached_debug.dir/clean
 
 examples/memcached/server/CMakeFiles/memcached_debug.dir/depend:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/tmp.wP7cYFAtQi /tmp/tmp.wP7cYFAtQi/examples/memcached/server /tmp/tmp.wP7cYFAtQi/cmake-build-debug /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/memcached/server /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/memcached/server/CMakeFiles/memcached_debug.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/tmp.BowNfo68sl /tmp/tmp.BowNfo68sl/examples/memcached/server /tmp/tmp.BowNfo68sl/cmake-build-debug /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/memcached/server /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/memcached/server/CMakeFiles/memcached_debug.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/memcached/server/CMakeFiles/memcached_debug.dir/depend
 

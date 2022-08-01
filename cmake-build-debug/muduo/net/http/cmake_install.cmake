@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/tmp.wP7cYFAtQi/muduo/net/http
+# Install script for directory: /tmp/tmp.BowNfo68sl/muduo/net/http
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,15 +38,15 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/tmp/tmp.wP7cYFAtQi/cmake-build-debug/lib/libmuduo_http.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/tmp/tmp.BowNfo68sl/cmake-build-debug/lib/libmuduo_http.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/muduo/net/http" TYPE FILE FILES
-    "/tmp/tmp.wP7cYFAtQi/muduo/net/http/HttpContext.h"
-    "/tmp/tmp.wP7cYFAtQi/muduo/net/http/HttpRequest.h"
-    "/tmp/tmp.wP7cYFAtQi/muduo/net/http/HttpResponse.h"
-    "/tmp/tmp.wP7cYFAtQi/muduo/net/http/HttpServer.h"
+    "/tmp/tmp.BowNfo68sl/muduo/net/http/HttpContext.h"
+    "/tmp/tmp.BowNfo68sl/muduo/net/http/HttpRequest.h"
+    "/tmp/tmp.BowNfo68sl/muduo/net/http/HttpResponse.h"
+    "/tmp/tmp.BowNfo68sl/muduo/net/http/HttpServer.h"
     )
 endif()
 

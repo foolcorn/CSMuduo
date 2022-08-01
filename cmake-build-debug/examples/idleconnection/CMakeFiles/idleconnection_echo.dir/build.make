@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/tmp.wP7cYFAtQi
+CMAKE_SOURCE_DIR = /tmp/tmp.BowNfo68sl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/tmp.wP7cYFAtQi/cmake-build-debug
+CMAKE_BINARY_DIR = /tmp/tmp.BowNfo68sl/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include examples/idleconnection/CMakeFiles/idleconnection_echo.dir/depend.make
@@ -59,29 +59,29 @@ include examples/idleconnection/CMakeFiles/idleconnection_echo.dir/flags.make
 
 examples/idleconnection/CMakeFiles/idleconnection_echo.dir/echo.cc.o: examples/idleconnection/CMakeFiles/idleconnection_echo.dir/flags.make
 examples/idleconnection/CMakeFiles/idleconnection_echo.dir/echo.cc.o: ../examples/idleconnection/echo.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.wP7cYFAtQi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/idleconnection/CMakeFiles/idleconnection_echo.dir/echo.cc.o"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/idleconnection && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/idleconnection_echo.dir/echo.cc.o -c /tmp/tmp.wP7cYFAtQi/examples/idleconnection/echo.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.BowNfo68sl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/idleconnection/CMakeFiles/idleconnection_echo.dir/echo.cc.o"
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/idleconnection && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/idleconnection_echo.dir/echo.cc.o -c /tmp/tmp.BowNfo68sl/examples/idleconnection/echo.cc
 
 examples/idleconnection/CMakeFiles/idleconnection_echo.dir/echo.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/idleconnection_echo.dir/echo.cc.i"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/idleconnection && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.wP7cYFAtQi/examples/idleconnection/echo.cc > CMakeFiles/idleconnection_echo.dir/echo.cc.i
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/idleconnection && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.BowNfo68sl/examples/idleconnection/echo.cc > CMakeFiles/idleconnection_echo.dir/echo.cc.i
 
 examples/idleconnection/CMakeFiles/idleconnection_echo.dir/echo.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/idleconnection_echo.dir/echo.cc.s"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/idleconnection && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.wP7cYFAtQi/examples/idleconnection/echo.cc -o CMakeFiles/idleconnection_echo.dir/echo.cc.s
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/idleconnection && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.BowNfo68sl/examples/idleconnection/echo.cc -o CMakeFiles/idleconnection_echo.dir/echo.cc.s
 
 examples/idleconnection/CMakeFiles/idleconnection_echo.dir/main.cc.o: examples/idleconnection/CMakeFiles/idleconnection_echo.dir/flags.make
 examples/idleconnection/CMakeFiles/idleconnection_echo.dir/main.cc.o: ../examples/idleconnection/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.wP7cYFAtQi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/idleconnection/CMakeFiles/idleconnection_echo.dir/main.cc.o"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/idleconnection && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/idleconnection_echo.dir/main.cc.o -c /tmp/tmp.wP7cYFAtQi/examples/idleconnection/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.BowNfo68sl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/idleconnection/CMakeFiles/idleconnection_echo.dir/main.cc.o"
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/idleconnection && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/idleconnection_echo.dir/main.cc.o -c /tmp/tmp.BowNfo68sl/examples/idleconnection/main.cc
 
 examples/idleconnection/CMakeFiles/idleconnection_echo.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/idleconnection_echo.dir/main.cc.i"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/idleconnection && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.wP7cYFAtQi/examples/idleconnection/main.cc > CMakeFiles/idleconnection_echo.dir/main.cc.i
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/idleconnection && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.BowNfo68sl/examples/idleconnection/main.cc > CMakeFiles/idleconnection_echo.dir/main.cc.i
 
 examples/idleconnection/CMakeFiles/idleconnection_echo.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/idleconnection_echo.dir/main.cc.s"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/idleconnection && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.wP7cYFAtQi/examples/idleconnection/main.cc -o CMakeFiles/idleconnection_echo.dir/main.cc.s
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/idleconnection && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.BowNfo68sl/examples/idleconnection/main.cc -o CMakeFiles/idleconnection_echo.dir/main.cc.s
 
 # Object files for target idleconnection_echo
 idleconnection_echo_OBJECTS = \
@@ -97,8 +97,8 @@ bin/idleconnection_echo: examples/idleconnection/CMakeFiles/idleconnection_echo.
 bin/idleconnection_echo: lib/libmuduo_net.a
 bin/idleconnection_echo: lib/libmuduo_base.a
 bin/idleconnection_echo: examples/idleconnection/CMakeFiles/idleconnection_echo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.wP7cYFAtQi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../bin/idleconnection_echo"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/idleconnection && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/idleconnection_echo.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.BowNfo68sl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../bin/idleconnection_echo"
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/idleconnection && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/idleconnection_echo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/idleconnection/CMakeFiles/idleconnection_echo.dir/build: bin/idleconnection_echo
@@ -106,10 +106,10 @@ examples/idleconnection/CMakeFiles/idleconnection_echo.dir/build: bin/idleconnec
 .PHONY : examples/idleconnection/CMakeFiles/idleconnection_echo.dir/build
 
 examples/idleconnection/CMakeFiles/idleconnection_echo.dir/clean:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/idleconnection && $(CMAKE_COMMAND) -P CMakeFiles/idleconnection_echo.dir/cmake_clean.cmake
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/idleconnection && $(CMAKE_COMMAND) -P CMakeFiles/idleconnection_echo.dir/cmake_clean.cmake
 .PHONY : examples/idleconnection/CMakeFiles/idleconnection_echo.dir/clean
 
 examples/idleconnection/CMakeFiles/idleconnection_echo.dir/depend:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/tmp.wP7cYFAtQi /tmp/tmp.wP7cYFAtQi/examples/idleconnection /tmp/tmp.wP7cYFAtQi/cmake-build-debug /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/idleconnection /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/idleconnection/CMakeFiles/idleconnection_echo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/tmp.BowNfo68sl /tmp/tmp.BowNfo68sl/examples/idleconnection /tmp/tmp.BowNfo68sl/cmake-build-debug /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/idleconnection /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/idleconnection/CMakeFiles/idleconnection_echo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/idleconnection/CMakeFiles/idleconnection_echo.dir/depend
 

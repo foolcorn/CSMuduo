@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/tmp.wP7cYFAtQi
+CMAKE_SOURCE_DIR = /tmp/tmp.BowNfo68sl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/tmp.wP7cYFAtQi/cmake-build-debug
+CMAKE_BINARY_DIR = /tmp/tmp.BowNfo68sl/cmake-build-debug
 
 # Utility rule file for protobuf_codec_all.
 
@@ -71,10 +71,10 @@ examples/protobuf/codec/CMakeFiles/protobuf_codec_all.dir/build: protobuf_codec_
 .PHONY : examples/protobuf/codec/CMakeFiles/protobuf_codec_all.dir/build
 
 examples/protobuf/codec/CMakeFiles/protobuf_codec_all.dir/clean:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/protobuf/codec && $(CMAKE_COMMAND) -P CMakeFiles/protobuf_codec_all.dir/cmake_clean.cmake
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/protobuf/codec && $(CMAKE_COMMAND) -P CMakeFiles/protobuf_codec_all.dir/cmake_clean.cmake
 .PHONY : examples/protobuf/codec/CMakeFiles/protobuf_codec_all.dir/clean
 
 examples/protobuf/codec/CMakeFiles/protobuf_codec_all.dir/depend:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/tmp.wP7cYFAtQi /tmp/tmp.wP7cYFAtQi/examples/protobuf/codec /tmp/tmp.wP7cYFAtQi/cmake-build-debug /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/protobuf/codec /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/protobuf/codec/CMakeFiles/protobuf_codec_all.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/tmp.BowNfo68sl /tmp/tmp.BowNfo68sl/examples/protobuf/codec /tmp/tmp.BowNfo68sl/cmake-build-debug /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/protobuf/codec /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/protobuf/codec/CMakeFiles/protobuf_codec_all.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/protobuf/codec/CMakeFiles/protobuf_codec_all.dir/depend
 

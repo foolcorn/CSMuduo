@@ -1,8 +1,11 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /tmp/tmp.wP7cYFAtQi
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /tmp/tmp.BowNfo68sl
+-- Found Boost: /usr/local/lib/cmake/Boost-1.79.0/BoostConfig.cmake (found version "1.79.0")  
 -- Could NOT find Protobuf (missing: Protobuf_INCLUDE_DIR) 
 -- Could NOT find CURL (missing: CURL_LIBRARY CURL_INCLUDE_DIR) 
--- found zlib
+-- Could NOT find ZLIB (missing: ZLIB_LIBRARY ZLIB_INCLUDE_DIR) 
 -- CXX_FLAGS = -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0
+-- Looking for accept4
+-- Looking for accept4 - found
 -- Configuring done
 -- Generating done
--- Build files have been written to: /tmp/tmp.wP7cYFAtQi/cmake-build-debug
+-- Build files have been written to: /tmp/tmp.BowNfo68sl/cmake-build-debug

@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/tmp.wP7cYFAtQi/examples/netty/uptime
+# Install script for directory: /tmp/tmp.BowNfo68sl/examples/netty/uptime
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

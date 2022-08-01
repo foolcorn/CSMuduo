@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/tmp.wP7cYFAtQi
+CMAKE_SOURCE_DIR = /tmp/tmp.BowNfo68sl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/tmp.wP7cYFAtQi/cmake-build-debug
+CMAKE_BINARY_DIR = /tmp/tmp.BowNfo68sl/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.wP7cYFAtQi/cmake-build-debug/CMakeFiles /tmp/tmp.wP7cYFAtQi/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.BowNfo68sl/cmake-build-debug/CMakeFiles /tmp/tmp.BowNfo68sl/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.wP7cYFAtQi/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.BowNfo68sl/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -194,19 +194,6 @@ logging_test/fast:
 .PHONY : logging_test/fast
 
 #=============================================================================
-# Target rules for targets named gzipfile_test
-
-# Build rule for target.
-gzipfile_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gzipfile_test
-.PHONY : gzipfile_test
-
-# fast build rule for target.
-gzipfile_test/fast:
-	$(MAKE) -f muduo/base/tests/CMakeFiles/gzipfile_test.dir/build.make muduo/base/tests/CMakeFiles/gzipfile_test.dir/build
-.PHONY : gzipfile_test/fast
-
-#=============================================================================
 # Target rules for targets named fork_test
 
 # Build rule for target.
@@ -259,19 +246,6 @@ date_unittest/fast:
 .PHONY : date_unittest/fast
 
 #=============================================================================
-# Target rules for targets named fileutil_test
-
-# Build rule for target.
-fileutil_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 fileutil_test
-.PHONY : fileutil_test
-
-# fast build rule for target.
-fileutil_test/fast:
-	$(MAKE) -f muduo/base/tests/CMakeFiles/fileutil_test.dir/build.make muduo/base/tests/CMakeFiles/fileutil_test.dir/build
-.PHONY : fileutil_test/fast
-
-#=============================================================================
 # Target rules for targets named logstream_bench
 
 # Build rule for target.
@@ -283,6 +257,19 @@ logstream_bench: cmake_check_build_system
 logstream_bench/fast:
 	$(MAKE) -f muduo/base/tests/CMakeFiles/logstream_bench.dir/build.make muduo/base/tests/CMakeFiles/logstream_bench.dir/build
 .PHONY : logstream_bench/fast
+
+#=============================================================================
+# Target rules for targets named fileutil_test
+
+# Build rule for target.
+fileutil_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fileutil_test
+.PHONY : fileutil_test
+
+# fast build rule for target.
+fileutil_test/fast:
+	$(MAKE) -f muduo/base/tests/CMakeFiles/fileutil_test.dir/build.make muduo/base/tests/CMakeFiles/fileutil_test.dir/build
+.PHONY : fileutil_test/fast
 
 #=============================================================================
 # Target rules for targets named exception_test
@@ -636,6 +623,19 @@ echoserver_unittest/fast:
 .PHONY : echoserver_unittest/fast
 
 #=============================================================================
+# Target rules for targets named eventloopthread_unittest
+
+# Build rule for target.
+eventloopthread_unittest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 eventloopthread_unittest
+.PHONY : eventloopthread_unittest
+
+# fast build rule for target.
+eventloopthread_unittest/fast:
+	$(MAKE) -f muduo/net/tests/CMakeFiles/eventloopthread_unittest.dir/build.make muduo/net/tests/CMakeFiles/eventloopthread_unittest.dir/build
+.PHONY : eventloopthread_unittest/fast
+
+#=============================================================================
 # Target rules for targets named echoclient_unittest
 
 # Build rule for target.
@@ -673,32 +673,6 @@ inetaddress_unittest: cmake_check_build_system
 inetaddress_unittest/fast:
 	$(MAKE) -f muduo/net/tests/CMakeFiles/inetaddress_unittest.dir/build.make muduo/net/tests/CMakeFiles/inetaddress_unittest.dir/build
 .PHONY : inetaddress_unittest/fast
-
-#=============================================================================
-# Target rules for targets named eventloopthread_unittest
-
-# Build rule for target.
-eventloopthread_unittest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 eventloopthread_unittest
-.PHONY : eventloopthread_unittest
-
-# fast build rule for target.
-eventloopthread_unittest/fast:
-	$(MAKE) -f muduo/net/tests/CMakeFiles/eventloopthread_unittest.dir/build.make muduo/net/tests/CMakeFiles/eventloopthread_unittest.dir/build
-.PHONY : eventloopthread_unittest/fast
-
-#=============================================================================
-# Target rules for targets named zlibstream_unittest
-
-# Build rule for target.
-zlibstream_unittest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 zlibstream_unittest
-.PHONY : zlibstream_unittest
-
-# fast build rule for target.
-zlibstream_unittest/fast:
-	$(MAKE) -f muduo/net/tests/CMakeFiles/zlibstream_unittest.dir/build.make muduo/net/tests/CMakeFiles/zlibstream_unittest.dir/build
-.PHONY : zlibstream_unittest/fast
 
 #=============================================================================
 # Target rules for targets named tcpclient_reg2
@@ -2236,13 +2210,12 @@ help:
 	@echo "... test"
 	@echo "... muduo_base"
 	@echo "... logging_test"
-	@echo "... gzipfile_test"
 	@echo "... fork_test"
 	@echo "... logfile_test"
 	@echo "... boundedblockingqueue_test"
 	@echo "... date_unittest"
-	@echo "... fileutil_test"
 	@echo "... logstream_bench"
+	@echo "... fileutil_test"
 	@echo "... exception_test"
 	@echo "... threadlocalsingleton_test"
 	@echo "... timezone_unittest"
@@ -2270,11 +2243,10 @@ help:
 	@echo "... channel_test"
 	@echo "... eventloopthreadpool_unittest"
 	@echo "... echoserver_unittest"
+	@echo "... eventloopthread_unittest"
 	@echo "... echoclient_unittest"
 	@echo "... buffer_unittest"
 	@echo "... inetaddress_unittest"
-	@echo "... eventloopthread_unittest"
-	@echo "... zlibstream_unittest"
 	@echo "... tcpclient_reg2"
 	@echo "... eventloop_unittest"
 	@echo "... tcpclient_reg3"

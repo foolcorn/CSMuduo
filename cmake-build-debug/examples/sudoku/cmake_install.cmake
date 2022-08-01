@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/tmp.wP7cYFAtQi/examples/sudoku
+# Install script for directory: /tmp/tmp.BowNfo68sl/examples/sudoku
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

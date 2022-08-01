@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/tmp.wP7cYFAtQi
+CMAKE_SOURCE_DIR = /tmp/tmp.BowNfo68sl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/tmp.wP7cYFAtQi/cmake-build-debug
+CMAKE_BINARY_DIR = /tmp/tmp.BowNfo68sl/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/depend.make
@@ -59,42 +59,42 @@ include examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/flags.make
 
 examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/ttcp_asio_async.cc.o: examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/flags.make
 examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/ttcp_asio_async.cc.o: ../examples/ace/ttcp/ttcp_asio_async.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.wP7cYFAtQi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/ttcp_asio_async.cc.o"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/ace/ttcp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ttcp_asio_async.dir/ttcp_asio_async.cc.o -c /tmp/tmp.wP7cYFAtQi/examples/ace/ttcp/ttcp_asio_async.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.BowNfo68sl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/ttcp_asio_async.cc.o"
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/ace/ttcp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ttcp_asio_async.dir/ttcp_asio_async.cc.o -c /tmp/tmp.BowNfo68sl/examples/ace/ttcp/ttcp_asio_async.cc
 
 examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/ttcp_asio_async.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ttcp_asio_async.dir/ttcp_asio_async.cc.i"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/ace/ttcp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.wP7cYFAtQi/examples/ace/ttcp/ttcp_asio_async.cc > CMakeFiles/ttcp_asio_async.dir/ttcp_asio_async.cc.i
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/ace/ttcp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.BowNfo68sl/examples/ace/ttcp/ttcp_asio_async.cc > CMakeFiles/ttcp_asio_async.dir/ttcp_asio_async.cc.i
 
 examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/ttcp_asio_async.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ttcp_asio_async.dir/ttcp_asio_async.cc.s"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/ace/ttcp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.wP7cYFAtQi/examples/ace/ttcp/ttcp_asio_async.cc -o CMakeFiles/ttcp_asio_async.dir/ttcp_asio_async.cc.s
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/ace/ttcp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.BowNfo68sl/examples/ace/ttcp/ttcp_asio_async.cc -o CMakeFiles/ttcp_asio_async.dir/ttcp_asio_async.cc.s
 
 examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/common.cc.o: examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/flags.make
 examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/common.cc.o: ../examples/ace/ttcp/common.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.wP7cYFAtQi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/common.cc.o"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/ace/ttcp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ttcp_asio_async.dir/common.cc.o -c /tmp/tmp.wP7cYFAtQi/examples/ace/ttcp/common.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.BowNfo68sl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/common.cc.o"
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/ace/ttcp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ttcp_asio_async.dir/common.cc.o -c /tmp/tmp.BowNfo68sl/examples/ace/ttcp/common.cc
 
 examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/common.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ttcp_asio_async.dir/common.cc.i"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/ace/ttcp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.wP7cYFAtQi/examples/ace/ttcp/common.cc > CMakeFiles/ttcp_asio_async.dir/common.cc.i
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/ace/ttcp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.BowNfo68sl/examples/ace/ttcp/common.cc > CMakeFiles/ttcp_asio_async.dir/common.cc.i
 
 examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/common.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ttcp_asio_async.dir/common.cc.s"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/ace/ttcp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.wP7cYFAtQi/examples/ace/ttcp/common.cc -o CMakeFiles/ttcp_asio_async.dir/common.cc.s
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/ace/ttcp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.BowNfo68sl/examples/ace/ttcp/common.cc -o CMakeFiles/ttcp_asio_async.dir/common.cc.s
 
 examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/main.cc.o: examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/flags.make
 examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/main.cc.o: ../examples/ace/ttcp/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.wP7cYFAtQi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/main.cc.o"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/ace/ttcp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ttcp_asio_async.dir/main.cc.o -c /tmp/tmp.wP7cYFAtQi/examples/ace/ttcp/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.BowNfo68sl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/main.cc.o"
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/ace/ttcp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ttcp_asio_async.dir/main.cc.o -c /tmp/tmp.BowNfo68sl/examples/ace/ttcp/main.cc
 
 examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ttcp_asio_async.dir/main.cc.i"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/ace/ttcp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.wP7cYFAtQi/examples/ace/ttcp/main.cc > CMakeFiles/ttcp_asio_async.dir/main.cc.i
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/ace/ttcp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.BowNfo68sl/examples/ace/ttcp/main.cc > CMakeFiles/ttcp_asio_async.dir/main.cc.i
 
 examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ttcp_asio_async.dir/main.cc.s"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/ace/ttcp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.wP7cYFAtQi/examples/ace/ttcp/main.cc -o CMakeFiles/ttcp_asio_async.dir/main.cc.s
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/ace/ttcp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.BowNfo68sl/examples/ace/ttcp/main.cc -o CMakeFiles/ttcp_asio_async.dir/main.cc.s
 
 # Object files for target ttcp_asio_async
 ttcp_asio_async_OBJECTS = \
@@ -111,8 +111,8 @@ bin/ttcp_asio_async: examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/main.cc.o
 bin/ttcp_asio_async: examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/build.make
 bin/ttcp_asio_async: lib/libmuduo_base.a
 bin/ttcp_asio_async: examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.wP7cYFAtQi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../../bin/ttcp_asio_async"
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/ace/ttcp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ttcp_asio_async.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.BowNfo68sl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../../bin/ttcp_asio_async"
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/ace/ttcp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ttcp_asio_async.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/build: bin/ttcp_asio_async
@@ -120,10 +120,10 @@ examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/build: bin/ttcp_asio_async
 .PHONY : examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/build
 
 examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/clean:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/ace/ttcp && $(CMAKE_COMMAND) -P CMakeFiles/ttcp_asio_async.dir/cmake_clean.cmake
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/ace/ttcp && $(CMAKE_COMMAND) -P CMakeFiles/ttcp_asio_async.dir/cmake_clean.cmake
 .PHONY : examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/clean
 
 examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/depend:
-	cd /tmp/tmp.wP7cYFAtQi/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/tmp.wP7cYFAtQi /tmp/tmp.wP7cYFAtQi/examples/ace/ttcp /tmp/tmp.wP7cYFAtQi/cmake-build-debug /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/ace/ttcp /tmp/tmp.wP7cYFAtQi/cmake-build-debug/examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/tmp.BowNfo68sl/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/tmp.BowNfo68sl /tmp/tmp.BowNfo68sl/examples/ace/ttcp /tmp/tmp.BowNfo68sl/cmake-build-debug /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/ace/ttcp /tmp/tmp.BowNfo68sl/cmake-build-debug/examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/ace/ttcp/CMakeFiles/ttcp_asio_async.dir/depend
 

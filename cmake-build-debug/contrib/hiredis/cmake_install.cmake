@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/tmp.wP7cYFAtQi/contrib/hiredis
+# Install script for directory: /tmp/tmp.BowNfo68sl/contrib/hiredis
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

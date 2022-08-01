@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/tmp.wP7cYFAtQi/examples/curl
+# Install script for directory: /tmp/tmp.BowNfo68sl/examples/curl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,10 +38,10 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/tmp/tmp.wP7cYFAtQi/cmake-build-debug/lib/libmuduo_curl.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/tmp/tmp.BowNfo68sl/cmake-build-debug/lib/libmuduo_curl.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/muduo/curl" TYPE FILE FILES "/tmp/tmp.wP7cYFAtQi/examples/curl/Curl.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/muduo/curl" TYPE FILE FILES "/tmp/tmp.BowNfo68sl/examples/curl/Curl.h")
 endif()
 

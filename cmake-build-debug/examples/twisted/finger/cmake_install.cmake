@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/tmp.wP7cYFAtQi/examples/twisted/finger
+# Install script for directory: /tmp/tmp.BowNfo68sl/examples/twisted/finger
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
