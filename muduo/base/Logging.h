@@ -14,10 +14,10 @@ namespace muduo
 
 class TimeZone;
 
-class Logger
+class Logger  //-接口类
 {
  public:
-  enum LogLevel
+  enum LogLevel  //-定义日志级别
   {
     TRACE,
     DEBUG,
@@ -29,7 +29,7 @@ class Logger
   };
 
   // compile time calculation of basename of source file
-  class SourceFile
+  class SourceFile  //-日志源文件
   {
    public:
     template<int N>

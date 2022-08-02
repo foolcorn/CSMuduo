@@ -19,7 +19,6 @@
 
 #include <inttypes.h>
 
-
 using namespace muduo;
 using namespace muduo::detail;
 
@@ -34,26 +33,28 @@ namespace muduo
 {
 namespace detail
 {
-
+    //-这是个啥,十进制数字？
 const char digits[] = "9876543210123456789";
+//-
 const char* zero = digits + 9;
 static_assert(sizeof(digits) == 20, "wrong number of digits");
 
+//-十六进制数字
 const char digitsHex[] = "0123456789ABCDEF";
 static_assert(sizeof digitsHex == 17, "wrong number of digitsHex");
 
 // Efficient Integer to String Conversions, by Matthew Wilson.
+//-将int转成cstr，并存入到buf里，如果是负数带上负号，返回值是字符串长度
 template<typename T>
 size_t convert(char buf[], T value)
 {
   T i = value;
   char* p = buf;
-
   do
   {
     int lsd = static_cast<int>(i % 10);
     i /= 10;
-    *p++ = zero[lsd];
+    *p++ = zero[lsd];//-int映射到char
   } while (i != 0);
 
   if (value < 0)
@@ -63,9 +64,10 @@ size_t convert(char buf[], T value)
   *p = '\0';
   std::reverse(buf, p);
 
-  return p - buf;
+  return static_cast<size_t>(p - buf);//-计算长度
 }
 
+//-将unsigned int转成16进制,并返回字符串的长度
 size_t convertHex(char buf[], uintptr_t value)
 {
   uintptr_t i = value;
@@ -84,6 +86,7 @@ size_t convertHex(char buf[], uintptr_t value)
   return p - buf;
 }
 
+//-定义两个fix buffer，一个小，一个大
 template class FixedBuffer<kSmallBuffer>;
 template class FixedBuffer<kLargeBuffer>;
 
@@ -99,6 +102,7 @@ template class FixedBuffer<kLargeBuffer>;
  [1.00P, 999P]
  [1.00E, inf)
 */
+//-不知道是干啥的
 std::string formatSI(int64_t s)
 {
   double n = static_cast<double>(s);
@@ -214,6 +218,7 @@ const char* FixedBuffer<SIZE>::debugString()
 template<int SIZE>
 void FixedBuffer<SIZE>::cookieStart()
 {
+
 }
 
 template<int SIZE>
@@ -294,7 +299,7 @@ LogStream& LogStream::operator<<(unsigned long long v)
 LogStream& LogStream::operator<<(const void* p)
 {
   uintptr_t v = reinterpret_cast<uintptr_t>(p);
-  if (buffer_.avail() >= kMaxNumericSize)
+  if (buffer_.avail() >= kMaxNumericSize)//-如果剩余容量放不下这个数字，就转成16进制？
   {
     char* buf = buffer_.current();
     buf[0] = '0';
@@ -315,6 +320,7 @@ LogStream& LogStream::operator<<(double v)
   }
   return *this;
 }
+
 
 template<typename T>
 Fmt::Fmt(const char* fmt, T val)
